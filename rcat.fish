@@ -1,3 +1,3 @@
-function rcat --description 'Colorized Cat'
-pygmentize -O style=solarized-dark $argv
+function rcat --description 'Colorized cat'
+    bat --theme=GitHub $argv
 end
