@@ -1,3 +1,4 @@
+# Defined interactively
 function rcat --description 'Colorized cat'
-    bat --theme=GitHub $argv
+    bat --theme=ansi $argv
 end
