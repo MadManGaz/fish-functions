@@ -3,9 +3,7 @@ function rust2pi --description 'Build an arm64 linux musl binary and send it to 
     # This definitely won't work if the user isn't in a cargo project folder.
     # Best check for this.
     if test (cargo verify-project) != '{"success":"true"}'
-        set_color --bold red
-        echo You are not in a cargo project.
-        set_color normal
+        set_color --bold red; echo "You are not in a cargo project."
         return 1
     end
 
