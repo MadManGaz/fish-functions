@@ -1,4 +1,4 @@
-function pa-flip-channels --description 'create a configuration to flip audio channels with pulse audio.'
+function pa_flip_channels --description 'create a configuration to flip audio channels with pulse audio.'
 if not test -d ~/.pulse
 echo "Creating missing ~/.pulse folder 📁"
 mkdir ~/.pulse
