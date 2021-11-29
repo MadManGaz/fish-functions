@@ -11,3 +11,5 @@ goqradar.fish
 fresh-build.fish
 deploy.fish
 
+goui.fish
+gogql.fish
