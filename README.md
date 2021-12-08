@@ -6,6 +6,5 @@ it may as well be public.
 
 ## Notes
 
-- You are required to install `exa`, as the ls.fish script replaces this with the rust written `exa` tool.
-- If you want to make use of the `rcat` command, you will need to install `bat`, which is a colorized replacement of cat.
+- Please run `install_rust_utils` right after cloning or things like ls won't work.
 
