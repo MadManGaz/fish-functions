@@ -1,4 +1,4 @@
-function install_utils --description 'Install required utils for fish functions'
+function install_rust_utils --description 'Install required utils for fish functions'
 if not which -s cargo
 echo "installing rust"
 curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly
