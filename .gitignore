@@ -13,3 +13,5 @@ deploy.fish
 
 goui.fish
 gogql.fish
+docker-compose.fish
+docker.fish
