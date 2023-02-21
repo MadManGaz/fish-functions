@@ -17,3 +17,5 @@ docker-compose.fish
 docker.fish
 wicked.fish
 strip.fish
+
+base16-*
